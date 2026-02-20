@@ -1,11 +1,10 @@
 import Link from "next/link"
 import { links } from "../../data/navigation-links"
-import { Button } from "@/components/ui/button"
 
 export const Navbar = () => {
     return (
-        <nav className="h-24 flex flex-col justify-center items-center">
-            <div className="max-w-5xl w-full mx-auto flex justify-between items-center gap-x-3">
+        <nav className="h-24 flex flex-col justify-center items-center px-8">
+            <div className="max-w-5xl xl:max-w-7xl w-full mx-auto flex justify-between items-center gap-x-3">
                 <h2 className="font-black --dm-sans">Mofeleng M.</h2>
                 <ul className="flex flex-row gap-x-3 items-center list-none">
                     { links.map((link) => (

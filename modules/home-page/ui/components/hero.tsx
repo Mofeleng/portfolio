@@ -1,7 +1,7 @@
 export const Hero = () => {
     return (
-        <section id="hero" className="py-30">
-            <div className="max-w-3xl w-full mx-auto">
+        <section id="hero" className="py-30 px-8">
+            <div className="max-w-3xl xl:max-w-6xl w-full mx-auto">
                 <label htmlFor="name" className="text-[#9D00FF]">Hi, my name is</label>
                 <h1 className="text-5xl font-black">Mofeleng Shadow Mokgope</h1>
                 <sub className="text-[#A8A8A8] text-xl font-semibold">A backend focused developer building real world solutions.</sub>

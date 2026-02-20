@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa"
 export const Projects = () => {
     return (
         <section id="projects" className="py-30">
-            <div className="max-w-3xl w-full mx-auto space-y-10">
+            <div className="max-w-3xl xl:max-w-6xl w-full mx-auto space-y-10 px-8">
                 <SectionHeader>Projects</SectionHeader>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3">
                     {

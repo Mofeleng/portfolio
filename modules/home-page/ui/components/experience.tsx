@@ -6,8 +6,8 @@ import Link from "next/link";
 export const WorkExperience = () => {
     const defaultId = 1;
     return (
-        <section id="experience" className="py-30">
-            <div className="max-w-3xl w-full mx-auto space-y-8">
+        <section id="experience" className="py-30 px-8">
+            <div className="max-w-3xl xl:max-w-6xl w-full mx-auto space-y-8">
                 <SectionHeader>Experience</SectionHeader>
 
                 <Tabs defaultValue={defaultId.toString()} orientation="vertical" className="flex flex-row gap-6">
