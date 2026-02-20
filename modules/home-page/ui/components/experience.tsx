@@ -47,9 +47,15 @@ export const WorkExperience = () => {
                                         )}
                                     </h3>
                                     <sub className="font-bold">{ i.startDate } { i.endDate && ` - ${i.endDate}`}</sub>
-                                    <p className="whitespace-pre-line">
+                                    <p className="whitespace-pre-line text-sm">
                                         { i.description }
                                     </p>
+
+                                    <div className="flex flex-row gap-x-2 mt-4 flex-wrap gap-y-2">
+                                        { i.skills.map((s) => (
+                                            <span key={s} className="bg-[#9D00FF] px-2 py-1 rounded-xs text-xs">{s}</span>
+                                        ))}
+                                    </div>
                                 </div>
                             </TabsContent>
                         ))}

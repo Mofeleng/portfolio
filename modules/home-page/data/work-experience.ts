@@ -14,7 +14,7 @@ export const workExperience:WorkExperience[] = [
         `,
         startDate: "April 2025",
         endDate: "Present",
-        skills: ["Typescript", "Next.js", "React", "Figma", "UI/UX design" ,"AI SDK", "Gemini SDK", "Zustand", "Chrome Extensions API", "CI/CD"]
+        skills: ["Typescript", "Next.js", "React", "Figma", "UI/UX design" ,"AI SDK", "Gemini SDK", "Authentication","Zustand", "Chrome Extensions API", "CI/CD"]
     },
     {
         id: 2,
