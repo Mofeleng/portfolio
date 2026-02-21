@@ -7,9 +7,9 @@ export const Footer = () => {
             <div className="max-w-3xl xl:max-w-6xl w-full mx-auto space-y-8 text-center">
                 <h3 className="font-black --dm-sans">Mofeleng M.</h3>
                 <div className="flex flex-row justify-center">
-                    { links.map((i) => 
+                    { links.map((i, idx) => 
                         (
-                            <div className="flex flex-row gap-x-4 items-center">
+                            <div className="flex flex-row gap-x-4 items-center" key={idx}>
                                 { i.facebook && <Link href={ i.facebook.link }><i.facebook.logo className={i.facebook.className ?? ""}/></Link>}
                                 { i.twitter && <Link href={ i.twitter.link }><i.twitter.logo className={i.twitter.className ?? ""}/></Link>}
                                 { i.instagram && <Link href={ i.instagram.link }><i.instagram.logo className={i.instagram.className ?? ""}/></Link>}
